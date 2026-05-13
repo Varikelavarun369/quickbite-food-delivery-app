@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>QuickBite Cart</title>
+
+    <link rel="stylesheet"
+          href="../css/cart.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+
+        QuickBite
+
+    </div>
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="dashboard.html">
+                Home
+            </a>
+        </li>
+
+        <li>
+            <a href="restaurants.html">
+                Restaurants
+            </a>
+        </li>
+
+        <li>
+            <a href="fooditems.html">
+                Food Items
+            </a>
+        </li>
+
+        <li>
+            <a href="orders.html">
+                Orders
+            </a>
+        </li>
+
+        <li>
+            <a href="cart.html"
+               class="active">
+                Cart
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<section class="cart-section">
+
+    <div class="cart-header">
+
+        <h1>
+            Your Cart
+        </h1>
+
+        <p>
+            Review your selected meals before checkout
+        </p>
+
+    </div>
+
+    <div class="cart-container"
+         id="cartContainer">
+
+    </div>
+
+    <div class="cart-summary">
+
+        <div class="summary-top">
+
+            <h2 id="cartTotal">
+
+                Total: ₹0
+
+            </h2>
+
+            <span class="payment-badge">
+
+                Cash On Delivery
+            </span>
+
+        </div>
+
+        <button onclick="placeOrder()">
+
+            Place Order
+
+        </button>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <h3>
+        Quick Bite
+    </h3>
+
+    <p>
+        Fast Delivery • Fresh Food • Easy Ordering
+    </p>
+
+</footer>
+
+<script src="../js/cart.js"></script>
+
+</body>
+
+</html>

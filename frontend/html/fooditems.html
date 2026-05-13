@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Quick Bite | Food Items</title>
+
+    <link rel="stylesheet"
+          href="../css/fooditems.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+
+        Quick Bite
+
+    </div>
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="dashboard.html">
+                Home
+            </a>
+        </li>
+
+        <li>
+            <a href="restaurants.html">
+                Restaurants
+            </a>
+        </li>
+
+        <li>
+            <a href="fooditems.html"
+               class="active">
+                Food Items
+            </a>
+        </li>
+
+        <li>
+            <a href="orders.html">
+                Orders
+            </a>
+        </li>
+
+        <li>
+            <a href="cart.html">
+                Cart
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<section class="hero-section">
+
+    <div class="hero-content">
+
+        <h1>
+            Delicious Food Delivered Fast
+        </h1>
+
+        <p>
+            Explore trending meals and order instantly
+            with Quick Bite.
+        </p>
+
+        <div class="search-box">
+
+            <input type="text"
+                   id="searchInput"
+                   placeholder="Search food items..."
+                   onkeyup="searchFoodItems()">
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="food-section">
+
+    <div class="section-title">
+
+        <h2>
+            Popular Food Items
+        </h2>
+
+        <p>
+            Freshly prepared meals from top restaurants
+        </p>
+
+    </div>
+
+    <div class="food-container"
+         id="foodContainer">
+
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <h3>
+        Quick Bite
+    </h3>
+
+    <p>
+        Fast Delivery • Fresh Food • Easy Ordering
+    </p>
+
+</footer>
+
+<script src="../js/fooditems.js"></script>
+
+</body>
+
+</html>
