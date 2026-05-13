@@ -100,22 +100,76 @@ fooddelivery
 
 ## Screenshots
 
-### Home Page
-![Home Page](screenshots/home.png)
+### User Authentication
 
-### Login Page
+#### Login Page
 ![Login Page](screenshots/login.png)
 
-### Restaurant Page
-![Restaurant Page](screenshots/restaurant.png)
-
-### Cart Page
-![Cart Page](screenshots/cart.png)
-
-### Order Page
-![Order Page](screenshots/order.png)
+#### Register Page
+![Register Page](screenshots/register.png)
 
 ---
+
+# Admin Module
+
+#### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+#### Admin Dashboard - Manage Features
+![Admin Dashboard 2](screenshots/admin-dashboard-2.png)
+
+#### Add Restaurant
+![Add Restaurant](screenshots/add-restaurant.png)
+
+#### Add Food Item
+![Add Food Item](screenshots/add-food-item.png)
+
+#### Manage Orders
+![Manage Orders](screenshots/manage-orders.png)
+
+#### Manage Orders - Order Status
+![Manage Orders 2](screenshots/manage-orders-2.png)
+
+#### Manage Orders - Update Status
+![Manage Orders 3](screenshots/manage-orders-3.png)
+
+#### Manage Orders - Order Completed
+![Manage Orders 4](screenshots/manage-orders-4.png)
+
+---
+
+# Customer Module
+
+#### Customer Dashboard
+![Customer Dashboard](screenshots/customer-dashboard.png)
+
+#### Search Restaurant
+![Search Restaurant](screenshots/search-restaurant.png)
+
+#### View Restaurants
+![View Restaurants](screenshots/view-restaurants.png)
+
+#### Search Food Items
+![Search Food Items](screenshots/search-food-items.png)
+
+#### View Food Items
+![View Food Items](screenshots/view-food-items.png)
+
+#### Add To Cart
+![Add To Cart](screenshots/add-to-cart.png)
+
+#### Cart Page
+![Cart Page](screenshots/cart-page.png)
+
+#### Empty Cart
+![Empty Cart](screenshots/empty-cart.png)
+
+#### Orders Page
+![Orders Page](screenshots/orders.png)
+
+#### Order Details Page
+![Order Details Page](screenshots/order-details.png)
+
 
 ## How to Run the Project
 
