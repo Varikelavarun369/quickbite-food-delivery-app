@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Quick Bite | Add Food Item</title>
+
+    <link rel="stylesheet"
+          href="../css/addfooditem.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+
+        Quick Bite Admin
+
+    </div>
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="admin-dashboard.html">
+                Dashboard
+            </a>
+        </li>
+
+        <li>
+            <a href="addrestaurant.html">
+                Add Restaurant
+            </a>
+        </li>
+
+        <li>
+            <a class="active"
+               href="addfooditem.html">
+                Add Food Item
+            </a>
+        </li>
+
+        <li>
+            <a href="orders-admin.html">
+                Manage Orders
+            </a>
+        </li>
+
+        <li>
+            <a href="#"
+               id="logoutBtn">
+                Logout
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<section class="page-header">
+
+    <h1>
+        Add Food Item
+    </h1>
+
+    <p>
+        Create delicious menu items for customers
+    </p>
+
+</section>
+
+<div class="container">
+
+    <div class="form-box">
+
+        <div class="form-icon">
+            🍔
+        </div>
+
+        <h2>
+            Food Information
+        </h2>
+
+        <form id="foodItemForm">
+
+            <div class="input-group">
+
+                <label>
+                    Food Name
+                </label>
+
+                <input type="text"
+                       id="name"
+                       placeholder="Enter food name"
+                       required>
+
+            </div>
+
+            <div class="input-group">
+
+                <label>
+                    Price
+                </label>
+
+                <input type="number"
+                       id="price"
+                       placeholder="Enter price"
+                       required>
+
+            </div>
+
+            <div class="input-group">
+
+                <label>
+                    Description
+                </label>
+
+                <input type="text"
+                       id="description"
+                       placeholder="Enter food description"
+                       required>
+
+            </div>
+
+            <div class="input-group">
+
+                <label>
+                    Restaurant
+                </label>
+
+                <select id="restaurant"
+                        required>
+
+                    <option value="">
+                        Select Restaurant
+                    </option>
+
+                </select>
+
+            </div>
+
+            <div class="input-group">
+
+                <label>
+                    Availability
+                </label>
+
+                <select id="available"
+                        required>
+
+                    <option value="">
+                        Select Availability
+                    </option>
+
+                    <option value="true">
+                        Available
+                    </option>
+
+                    <option value="false">
+                        Not Available
+                    </option>
+
+                </select>
+
+            </div>
+
+            <button type="submit">
+
+                Add Food Item
+
+            </button>
+
+        </form>
+
+        <div id="message"></div>
+
+    </div>
+
+</div>
+
+<script src="../js/addfooditem.js"></script>
+
+</body>
+
+</html>
