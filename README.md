@@ -1,54 +1,86 @@
 # QuickBite - Food Delivery Application
 
-QuickBite is a full-stack food delivery web application developed using Spring Boot, MySQL, HTML, CSS, and JavaScript.  
-The application allows users to browse restaurants, order food items, manage carts, and place orders through a responsive web interface.
+QuickBite is a full-stack food delivery web application developed using Spring Boot, MySQL, HTML, CSS, and JavaScript.
+
+The application allows users to browse restaurants, search food items, manage carts, place orders, and manage restaurant operations through a responsive web interface.
 
 ---
 
-## Features
+# 🚀 Features
 
+## Authentication & Security
 - User Registration and Login
 - JWT Authentication & Authorization
+- Role-Based Access Control
+- Password Encryption
+- Protected REST APIs
+
+## Admin Features
 - Restaurant Management
 - Food Item Management
+- Order Management
+- Order Status Updates
+- Admin Dashboard Management
+
+## Customer Features
+- Browse Restaurants
+- Search Restaurants
+- Browse Food Items
+- Search Food Items
+- Add to Cart
 - Cart Management
-- Order Placement
-- Order Item Management
-- RESTful APIs
+- Place Orders
+- View Orders
+- View Order Details
+
+## Backend Features
+- RESTful API Development
+- DTO-Based Architecture
 - Exception Handling
+- Validation Handling
 - Layered Architecture
-- Responsive Frontend UI
+
+## Database Features
+- MySQL Database Integration
+- SQL Operations
+- Spring Data JPA
+- Hibernate ORM
+- Entity Relationship Mapping
+- CRUD Operations
 
 ---
 
-## Tech Stack
+# 🛠️ Tech Stack
 
-### Backend
-- Java
+## Backend
+- Java 17
 - Spring Boot
+- Spring MVC
 - Spring Security
 - JWT Authentication
-- Spring Data JPA
-- Hibernate
+- REST API Development
 - Maven
 
-### Frontend
+## Database & ORM
+- MySQL
+- SQL
+- Spring Data JPA
+- Hibernate ORM
+
+## Frontend
 - HTML
 - CSS
 - JavaScript
 
-### Database
-- MySQL
-
-### Tools
+## Tools & Platforms
 - Git
 - GitHub
 - Postman
-- IntelliJ IDEA / Eclipse
+- IntelliJ IDEA 
 
 ---
 
-## Project Structure
+# 📂 Project Structure
 
 ```text
 fooddelivery
@@ -69,14 +101,14 @@ fooddelivery
  ┃ ┣ js
  ┃ ┣ images
  ┃ ┗ html pages
- ┣ screenshots
+ ┣ Screenshots
  ┣ pom.xml
  ┗ README.md
 ```
 
 ---
 
-## API Modules
+# 🔌 API Modules
 
 - Authentication APIs
 - User APIs
@@ -89,99 +121,122 @@ fooddelivery
 
 ---
 
-## Security Features
+# 🔐 Security Features
 
 - JWT Token Authentication
 - Role-Based Authorization
 - Password Encryption
 - Protected REST APIs
+- Secure API Access
 
 ---
 
-## Screenshots
+# 🗄️ Database Design
 
-### User Authentication
+## Entities
+- User Entity
+- Restaurant Entity
+- Food Item Entity
+- Cart Entity
+- Cart Item Entity
+- Order Entity
+- Order Item Entity
 
-#### Login Page
+## ORM Features
+- JPA Entity Mapping
+- Hibernate Relationships
+- Repository Layer Implementation
+- CRUD Database Operations
+
+---
+
+# 📸 Screenshots
+
+## User Authentication
+
+### Login Page
 ![Login Page](Screenshots/login.png)
 
-#### Register Page
+### Register Page
 ![Register Page](Screenshots/register.png)
 
 ---
 
-# Admin Module
+# 👨‍💼 Admin Module
 
-#### Admin Dashboard
+### Admin Dashboard
 ![Admin Dashboard](Screenshots/admin-dashboard.png)
 
-#### Admin Dashboard - Manage Features
+### Admin Dashboard - Manage Features
 ![Admin Dashboard 2](Screenshots/admin-dashboard-2.png)
 
-#### Add Restaurant
+### Add Restaurant
 ![Add Restaurant](Screenshots/add-restaurant.png)
 
-#### Add Food Item
+### Add Food Item
 ![Add Food Item](Screenshots/add-food-item.png)
 
-#### Manage Orders
+### Manage Orders
 ![Manage Orders](Screenshots/manage-orders.png)
 
-#### Manage Orders - Order Status
+### Manage Orders - Order Status
 ![Manage Orders 2](Screenshots/manage-orders-2.png)
 
-#### Manage Orders - Update Status
+### Manage Orders - Update Status
 ![Manage Orders 3](Screenshots/manage-orders-3.png)
 
-#### Manage Orders - Order Completed
+### Manage Orders - Order Completed
 ![Manage Orders 4](Screenshots/manage-orders-4.png)
 
 ---
 
-# Customer Module
+# 👨‍🍳 Customer Module
 
-#### Customer Dashboard
+### Customer Dashboard
 ![Customer Dashboard](Screenshots/customer-dashboard.png)
 
-#### Search Restaurant
+### Search Restaurant
 ![Search Restaurant](Screenshots/search-restaurant.png)
 
-#### View Restaurants
+### View Restaurants
 ![View Restaurants](Screenshots/view-restaurants.png)
 
-#### Search Food Items
+### Search Food Items
 ![Search Food Items](Screenshots/search-food-items.png)
 
-#### View Food Items
+### View Food Items
 ![View Food Items](Screenshots/view-food-items.png)
 
-#### Add To Cart
+### Add To Cart
 ![Add To Cart](Screenshots/add-to-cart.png)
 
-#### Cart Page
+### Cart Page
 ![Cart Page](Screenshots/cart-page.png)
 
-#### Empty Cart
+### Empty Cart
 ![Empty Cart](Screenshots/empty-cart.png)
 
-#### Orders Page
+### Orders Page
 ![Orders Page](Screenshots/orders.png)
 
-#### Order Details Page
+### Order Details Page
 ![Order Details Page](Screenshots/order-details.png)
 
+---
 
-## How to Run the Project
+# ⚙️ How to Run the Project
 
-### Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/Varikelavarun369/quickbite-food-delivery-app.git
 ```
 
-### Configure Database
+---
 
-Update `application.properties` file with your MySQL credentials.
+## Configure Database
+
+Update the `application.properties` file with your MySQL credentials.
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/fooddelivery
@@ -189,38 +244,40 @@ spring.datasource.username=your_username
 spring.datasource.password=your_password
 ```
 
-### Run Backend
+---
+
+## Run Backend
 
 ```bash
 mvn spring-boot:run
 ```
 
-### Run Frontend
+---
 
-Open the frontend HTML files in browser.
+## Run Frontend
+
+Open the frontend HTML files in your browser.
 
 ---
 
-## Future Improvements
+# 📈 Future Improvements
 
 - Online Payment Integration
 - Email Notifications
-- Order Tracking
-- Admin Dashboard
-- Docker Deployment
+- Real-Time Order Tracking
 - Cloud Deployment
 
 ---
 
-## Author
+# 👨‍💻 Author
 
-Varikela Varun
+## Varikela Varun
 
 GitHub:  
 https://github.com/Varikelavarun369
 
 ---
 
-## License
+# 📄 License
 
 This project is developed for learning and portfolio purposes.
