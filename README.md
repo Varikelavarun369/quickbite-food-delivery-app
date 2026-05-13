@@ -103,72 +103,72 @@ fooddelivery
 ### User Authentication
 
 #### Login Page
-![Login Page](screenshots/login.png)
+![Login Page](Screenshots/login.png)
 
 #### Register Page
-![Register Page](screenshots/register.png)
+![Register Page](Screenshots/register.png)
 
 ---
 
 # Admin Module
 
 #### Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Dashboard](Screenshots/admin-dashboard.png)
 
 #### Admin Dashboard - Manage Features
-![Admin Dashboard 2](screenshots/admin-dashboard-2.png)
+![Admin Dashboard 2](Screenshots/admin-dashboard-2.png)
 
 #### Add Restaurant
-![Add Restaurant](screenshots/add-restaurant.png)
+![Add Restaurant](Screenshots/add-restaurant.png)
 
 #### Add Food Item
-![Add Food Item](screenshots/add-food-item.png)
+![Add Food Item](Screenshots/add-food-item.png)
 
 #### Manage Orders
-![Manage Orders](screenshots/manage-orders.png)
+![Manage Orders](Screenshots/manage-orders.png)
 
 #### Manage Orders - Order Status
-![Manage Orders 2](screenshots/manage-orders-2.png)
+![Manage Orders 2](Screenshots/manage-orders-2.png)
 
 #### Manage Orders - Update Status
-![Manage Orders 3](screenshots/manage-orders-3.png)
+![Manage Orders 3](Screenshots/manage-orders-3.png)
 
 #### Manage Orders - Order Completed
-![Manage Orders 4](screenshots/manage-orders-4.png)
+![Manage Orders 4](Screenshots/manage-orders-4.png)
 
 ---
 
 # Customer Module
 
 #### Customer Dashboard
-![Customer Dashboard](screenshots/customer-dashboard.png)
+![Customer Dashboard](Screenshots/customer-dashboard.png)
 
 #### Search Restaurant
-![Search Restaurant](screenshots/search-restaurant.png)
+![Search Restaurant](Screenshots/search-restaurant.png)
 
 #### View Restaurants
-![View Restaurants](screenshots/view-restaurants.png)
+![View Restaurants](Screenshots/view-restaurants.png)
 
 #### Search Food Items
-![Search Food Items](screenshots/search-food-items.png)
+![Search Food Items](Screenshots/search-food-items.png)
 
 #### View Food Items
-![View Food Items](screenshots/view-food-items.png)
+![View Food Items](Screenshots/view-food-items.png)
 
 #### Add To Cart
-![Add To Cart](screenshots/add-to-cart.png)
+![Add To Cart](Screenshots/add-to-cart.png)
 
 #### Cart Page
-![Cart Page](screenshots/cart-page.png)
+![Cart Page](Screenshots/cart-page.png)
 
 #### Empty Cart
-![Empty Cart](screenshots/empty-cart.png)
+![Empty Cart](Screenshots/empty-cart.png)
 
 #### Orders Page
-![Orders Page](screenshots/orders.png)
+![Orders Page](Screenshots/orders.png)
 
 #### Order Details Page
-![Order Details Page](screenshots/order-details.png)
+![Order Details Page](Screenshots/order-details.png)
 
 
 ## How to Run the Project
