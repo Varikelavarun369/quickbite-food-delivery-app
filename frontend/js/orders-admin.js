@@ -16,7 +16,7 @@ async function loadOrders() {
         const response =
             await fetch(
 
-                "http://localhost:8080/orders",
+                "https://quickbite-food-delivery-app-xsz4.onrender.com/orders",
 
                 {
 
@@ -166,7 +166,7 @@ async function updateStatus(
         const response =
             await fetch(
 
-                `http://localhost:8080/orders/${orderId}/status?status=${status}`,
+                `https://quickbite-food-delivery-app-xsz4.onrender.com/orders/${orderId}/status?status=${status}`,
 
                 {
 
