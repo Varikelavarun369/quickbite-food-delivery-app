@@ -21,7 +21,7 @@ async function loadCartItems() {
         const response =
             await fetch(
 
-                "http://localhost:8080/cartitems/cart/"
+                "https://quickbite-food-delivery-app-xsz4.onrender.com/cartitems/cart/"
                 + cartId,
 
                 {
@@ -186,7 +186,7 @@ async function updateQuantity(
         const response =
             await fetch(
 
-                "http://localhost:8080/cartitems/"
+                "https://quickbite-food-delivery-app-xsz4.onrender.com/cartitems/"
                 + cartItemId,
 
                 {
@@ -233,7 +233,7 @@ async function removeCartItem(
         const response =
             await fetch(
 
-                "http://localhost:8080/cartitems/"
+                "https://quickbite-food-delivery-app-xsz4.onrender.com/cartitems/"
                 + cartItemId,
 
                 {
@@ -276,7 +276,7 @@ async function placeOrder() {
         const response =
             await fetch(
 
-                "http://localhost:8080/orders/place/"
+                "https://quickbite-food-delivery-app-xsz4.onrender.com/orders/place/"
                 + cartId,
 
                 {
