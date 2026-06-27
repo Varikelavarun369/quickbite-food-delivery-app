@@ -24,12 +24,12 @@ async function loadFoodItems() {
             );
 
         let apiUrl =
-            "http://localhost:8080/fooditems";
+            "https://quickbite-food-delivery-app-xsz4.onrender.com/fooditems";
 
         if (restaurantId) {
 
             apiUrl =
-                "http://localhost:8080/fooditems/restaurant/"
+                "https://quickbite-food-delivery-app-xsz4.onrender.com/fooditems/restaurant/"
                 + restaurantId;
         }
 
@@ -178,7 +178,7 @@ async function addToCart(
         const response =
             await fetch(
 
-                "http://localhost:8080/cartitems",
+                "https://quickbite-food-delivery-app-xsz4.onrender.com/cartitems",
 
                 {
 
