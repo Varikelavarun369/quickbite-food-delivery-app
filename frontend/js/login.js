@@ -30,7 +30,7 @@ document
                 const response =
                     await fetch(
 
-                        "http://localhost:8080/auth/login",
+                        "https://quickbite-food-delivery-app-xsz4.onrender.com/auth/login",
 
                         {
 
@@ -72,7 +72,7 @@ document
                         const cartResponse =
                             await fetch(
 
-                                "http://localhost:8080/carts/user/"
+                                "https://quickbite-food-delivery-app-xsz4.onrender.com/carts/user/"
                                 + data.userId,
 
                                 {
@@ -103,7 +103,7 @@ document
                             const newCartResponse =
                                 await fetch(
 
-                                    "http://localhost:8080/carts",
+                                    "https://quickbite-food-delivery-app-xsz4.onrender.com/carts",
 
                                     {
 
