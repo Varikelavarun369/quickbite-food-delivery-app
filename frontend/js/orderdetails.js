@@ -15,7 +15,7 @@ async function loadOrderItems() {
         const response =
             await fetch(
 
-                "http://localhost:8080/orderitems/order/"
+                "https://quickbite-food-delivery-app-xsz4.onrender.com/orderitems/order/"
                 + orderId,
 
                 {
