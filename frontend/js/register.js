@@ -39,7 +39,7 @@ document
                 const response =
                     await fetch(
 
-                        "http://localhost:8080/users",
+                        "https://quickbite-food-delivery-app-xsz4.onrender.com/users",
 
                         {
 
