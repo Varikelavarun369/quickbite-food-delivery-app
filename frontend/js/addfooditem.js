@@ -40,7 +40,7 @@ async function loadRestaurants() {
         const response =
             await fetch(
 
-                "http://localhost:8080/restaurants",
+                "https://quickbite-food-delivery-app-xsz4.onrender.com/restaurants",
 
                 {
 
@@ -137,7 +137,7 @@ document
                 const response =
                     await fetch(
 
-                        "http://localhost:8080/fooditems",
+                        "https://quickbite-food-delivery-app-xsz4.onrender.com/fooditems",
 
                         {
 
