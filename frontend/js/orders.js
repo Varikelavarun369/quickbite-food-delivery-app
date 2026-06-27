@@ -21,7 +21,7 @@ async function loadOrders() {
         const response =
             await fetch(
 
-                "http://localhost:8080/orders/user/"
+                "https://quickbite-food-delivery-app-xsz4.onrender.com/orders/user/"
                 + userId,
 
                 {
