@@ -79,7 +79,7 @@ document
                 const response =
                     await fetch(
 
-                        "http://localhost:8080/restaurants",
+                        "https://quickbite-food-delivery-app-xsz4.onrender.com/restaurants",
 
                         {
 
